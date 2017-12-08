@@ -1,0 +1,6 @@
+Las presentes funciones calculan la matriz de conducción de calor en elementos triangulares y cuadrangualares, con las siguientes observaciones:
+* "MatCondCar" calcula la matriz utilizando coordenadas cartesianas, por lo tanto para elementos cuadrangulares sólo servirá si los elementos están alineados con los ejes cartesianos.
+* "MatCondNat" calcula la matriz utilizando coordenadas naturales, pero para elementos cuadrangulares utiliza expresiones simbólicas.'
+* "MatCondNatIN" calcula la matriz utilizando coordenadas naturales, pero para elementos cuadrangulares utiliza integración numérica con 4 puntos de Gauss.
+
+ 
